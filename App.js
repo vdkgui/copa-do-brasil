@@ -4,8 +4,9 @@ import 'react-native-gesture-handler'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 
-import Copa from './src/screens/Copa'
 
+import Copa from './src/screens/Copa'
+import api from './api/api'
 
 const Stack = createStackNavigator();
 

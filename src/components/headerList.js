@@ -1,25 +1,34 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
+import { Button } from 'react-native-elements'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 export default (props) => {
   return (
     <View style={styles.header_container}>
-      <Icon.Button
+      <Button icon={
+        <Icon
           name="arrow-left"
           backgroundColor="#fcfcfc"
-          color="#3b9c00"
+          color={props.buttonLeftDisable ? "#a3a2a2":"#3b9c00"}
           size={18}
           padding={18}
+        />}
+        type='clear'
+        onPress={props.onPressLeft}
         />
       <Text style={styles.list_header_level}>{props.title}</Text>
-      <Icon.Button
+      <Button icon={
+        <Icon
           name="arrow-right"
           backgroundColor="#fcfcfc"
-          color="#3b9c00"
+          color={props.buttonRightDisable ? "#a3a2a2":"#3b9c00"}
           size={18}
           padding={18}
+        />}
+        type='clear'
+        onPress={props.onPressRight}
         />
     </View>
   )
@@ -37,5 +46,5 @@ const styles = StyleSheet.create({
     padding: 10,
     fontSize: 20,
     fontWeight: 'bold',
-  }
+  },
 })

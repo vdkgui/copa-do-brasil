@@ -4,13 +4,17 @@ import { StyleSheet, Text, View } from 'react-native'
 
 export default (props) => {
   return (
-    <View style={[styles.item_container, 
-        {marginBottom: props.item % 2 != 0 ? 0 : 10 },
-        {marginTop: props.item % 2 != 0 ? 0 : 10 }]}>
-        <Text>Status: {props.matchStatus}</Text>
-        <Text style={styles.score_text}>{props.match}</Text>
-        <Text>Local:{props.matchLocation}</Text>
-        <Text>Hora:{props.matchLocation}</Text>
+    <View style={styles.item_container}>
+        <Text>Status: {props.status}</Text>
+        <Text style={styles.score_text}>{props.score}</Text>
+        { props.date 
+          ? <Text>Data:{props.date}</Text>
+          : <Text>Data: A definir</Text>
+        }
+        { props.time
+          ? <Text>Hora:{props.time}</Text>
+          : <Text>Hora: A definir</Text>
+        }
     </View>
   )
 }

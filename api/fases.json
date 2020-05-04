@@ -1,0 +1,89 @@
+{
+    "campeonato_id": 2,
+    "nome": "Copa do Brasil",
+    "nome_popular": "Copa do Brasil",
+    "edicao_atual": {
+        "edicao_id": 2,
+        "temporada": "2020",
+        "nome": "Copa do Brasil 2020",
+        "nome_popular": "Copa do Brasil 2020",
+        "slug": "copa-do-brasil-2020"
+    },
+    "status": -100,
+    "tipo": "mata-mata",
+    "regiao": "nacional",
+    "fases": [
+        {
+            "fase_id": 55,
+            "nome": "Primeira Fase",
+            "status": "finalizado",
+            "decisivo": false,
+            "eliminatorio": true,
+            "ida_e_volta": false,
+            "_link": "/v1/campeonatos/2/fases/55"
+        },
+        {
+            "fase_id": 56,
+            "nome": "Segunda Fase",
+            "status": "finalizado",
+            "decisivo": false,
+            "eliminatorio": true,
+            "ida_e_volta": false,
+            "_link": "/v1/campeonatos/2/fases/56"
+        },
+        {
+            "fase_id": 57,
+            "nome": "Terceira Fase",
+            "status": "andamento",
+            "decisivo": false,
+            "eliminatorio": true,
+            "ida_e_volta": true,
+            "_link": "/v1/campeonatos/2/fases/57"
+        },
+        {
+            "fase_id": 58,
+            "nome": "Quarta Fase",
+            "status": "aguardando-resultados",
+            "decisivo": false,
+            "eliminatorio": true,
+            "ida_e_volta": true,
+            "_link": "/v1/campeonatos/2/fases/58"
+        },
+        {
+            "fase_id": 59,
+            "nome": "Oitavas de Final",
+            "status": "aguardando-resultados",
+            "decisivo": false,
+            "eliminatorio": true,
+            "ida_e_volta": true,
+            "_link": "/v1/campeonatos/2/fases/59"
+        },
+        {
+            "fase_id": 60,
+            "nome": "Quartas de Final",
+            "status": "aguardando-resultados",
+            "decisivo": false,
+            "eliminatorio": true,
+            "ida_e_volta": true,
+            "_link": "/v1/campeonatos/2/fases/60"
+        },
+        {
+            "fase_id": 61,
+            "nome": "Semi-Final",
+            "status": "aguardando-resultados",
+            "decisivo": false,
+            "eliminatorio": true,
+            "ida_e_volta": true,
+            "_link": "/v1/campeonatos/2/fases/61"
+        },
+        {
+            "fase_id": 62,
+            "nome": "Final",
+            "status": "aguardando-resultados",
+            "decisivo": true,
+            "eliminatorio": true,
+            "ida_e_volta": true,
+            "_link": "/v1/campeonatos/2/fases/62"
+        }
+    ]
+}

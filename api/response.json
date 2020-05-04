@@ -1,0 +1,585 @@
+{
+    "fase_id": 55,
+    "campeonato": {
+        "campeonato_id": 2,
+        "nome": "Copa do Brasil",
+        "nome_popular": "Copa do Brasil",
+        "edicao_atual": {
+            "edicao_id": 2,
+            "temporada": "2020",
+            "nome": "Copa do Brasil 2020",
+            "nome_popular": "Copa do Brasil 2020",
+            "slug": "copa-do-brasil-2020"
+        },
+        "status": -100,
+        "tipo": "mata-mata",
+        "_link": "/v1/campeonatos/2"
+    },
+    "nome": "Primeira Fase",
+    "status": "finalizado",
+    "decisivo": false,
+    "eliminatorio": true,
+    "ida_e_volta": false,
+    "chaves": {
+        "chave-1": {
+            "ida": [
+                {
+                    "partida_id": 600,
+                    "placar": "River-PI 1x0 Bahia",
+                    "placar_mandante": 1,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/600"
+                }
+            ]
+        },
+        "chave-2": {
+            "ida": [
+                {
+                    "partida_id": 601,
+                    "placar": "São Luiz 0x0 América-RN",
+                    "placar_mandante": 0,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "20:30",
+                    "_link": "/v1/partidas/601"
+                }
+            ]
+        },
+        "chave-3": {
+            "ida": [
+                {
+                    "partida_id": 602,
+                    "placar": "XV de Piracicaba 1x0 Londrina",
+                    "placar_mandante": 1,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "20:30",
+                    "_link": "/v1/partidas/602"
+                }
+            ]
+        },
+        "chave-4": {
+            "ida": [
+                {
+                    "partida_id": 603,
+                    "placar": "Coruripe 0x0 Juventude",
+                    "placar_mandante": 0,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "15:30",
+                    "_link": "/v1/partidas/603"
+                }
+            ]
+        },
+        "chave-5": {
+            "ida": [
+                {
+                    "partida_id": 604,
+                    "placar": "Toledo 0x2 Náutico",
+                    "placar_mandante": 0,
+                    "placar_visitante": 2,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/604"
+                }
+            ]
+        },
+        "chave-6": {
+            "ida": [
+                {
+                    "partida_id": 605,
+                    "placar": "Caxias 1x1 Botafogo",
+                    "placar_mandante": 1,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/605"
+                }
+            ]
+        },
+        "chave-7": {
+            "ida": [
+                {
+                    "partida_id": 606,
+                    "placar": "Palmas 0x2 Paraná",
+                    "placar_mandante": 0,
+                    "placar_visitante": 2,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/606"
+                }
+            ]
+        },
+        "chave-8": {
+            "ida": [
+                {
+                    "partida_id": 607,
+                    "placar": "Bahia de Feira 3x1 Luverdense",
+                    "placar_mandante": 3,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "20:30",
+                    "_link": "/v1/partidas/607"
+                }
+            ]
+        },
+        "chave-9": {
+            "ida": [
+                {
+                    "partida_id": 608,
+                    "placar": "Brusque 2x1 Sport",
+                    "placar_mandante": 2,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "19:15",
+                    "_link": "/v1/partidas/608"
+                }
+            ]
+        },
+        "chave-10": {
+            "ida": [
+                {
+                    "partida_id": 609,
+                    "placar": "Freipaulistano 1x2 Remo",
+                    "placar_mandante": 1,
+                    "placar_visitante": 2,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "16:00",
+                    "_link": "/v1/partidas/609"
+                }
+            ]
+        },
+        "chave-11": {
+            "ida": [
+                {
+                    "partida_id": 610,
+                    "placar": "Gama 3x3 Brasil de Pelotas",
+                    "placar_mandante": 3,
+                    "placar_visitante": 3,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "20:30",
+                    "_link": "/v1/partidas/610"
+                }
+            ]
+        },
+        "chave-12": {
+            "ida": [
+                {
+                    "partida_id": 611,
+                    "placar": "Manaus 1x0 Coritiba",
+                    "placar_mandante": 1,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "22:30",
+                    "_link": "/v1/partidas/611"
+                }
+            ]
+        },
+        "chave-13": {
+            "ida": [
+                {
+                    "partida_id": 612,
+                    "placar": "Vilhenense 1x1 Boa Esporte",
+                    "placar_mandante": 1,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "20:30",
+                    "_link": "/v1/partidas/612"
+                }
+            ]
+        },
+        "chave-14": {
+            "ida": [
+                {
+                    "partida_id": 613,
+                    "placar": "São Raimundo-RR 2x2 Cruzeiro",
+                    "placar_mandante": 2,
+                    "placar_visitante": 2,
+                    "status": "encerrado",
+                    "data_realizacao": "13/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/613"
+                }
+            ]
+        },
+        "chave-15": {
+            "ida": [
+                {
+                    "partida_id": 614,
+                    "placar": "Brasiliense 1x1 Paysandu",
+                    "placar_mandante": 1,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "06/02/2020",
+                    "hora_realizacao": "19:15",
+                    "_link": "/v1/partidas/614"
+                }
+            ]
+        },
+        "chave-16": {
+            "ida": [
+                {
+                    "partida_id": 615,
+                    "placar": "Independente-PA 2x3 CRB",
+                    "placar_mandante": 2,
+                    "placar_visitante": 3,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "15:30",
+                    "_link": "/v1/partidas/615"
+                }
+            ]
+        },
+        "chave-17": {
+            "ida": [
+                {
+                    "partida_id": 616,
+                    "placar": "Moto Club 2x4 Fluminense",
+                    "placar_mandante": 2,
+                    "placar_visitante": 4,
+                    "status": "encerrado",
+                    "data_realizacao": "26/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/616"
+                }
+            ]
+        },
+        "chave-18": {
+            "ida": [
+                {
+                    "partida_id": 617,
+                    "placar": "Atlético-BA 0x0 Botafogo-PB",
+                    "placar_mandante": 0,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "20:30",
+                    "_link": "/v1/partidas/617"
+                }
+            ]
+        },
+        "chave-19": {
+            "ida": [
+                {
+                    "partida_id": 618,
+                    "placar": "Vitória-ES 2x1 CSA",
+                    "placar_mandante": 2,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "06/02/2020",
+                    "hora_realizacao": "20:30",
+                    "_link": "/v1/partidas/618"
+                }
+            ]
+        },
+        "chave-20": {
+            "ida": [
+                {
+                    "partida_id": 619,
+                    "placar": "Novorizontino 1x2 Figueirense",
+                    "placar_mandante": 1,
+                    "placar_visitante": 2,
+                    "status": "encerrado",
+                    "data_realizacao": "06/02/2020",
+                    "hora_realizacao": "16:30",
+                    "_link": "/v1/partidas/619"
+                }
+            ]
+        },
+        "chave-21": {
+            "ida": [
+                {
+                    "partida_id": 620,
+                    "placar": "Caucaia 1x2 São José-RS",
+                    "placar_mandante": 1,
+                    "placar_visitante": 2,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "16:00",
+                    "_link": "/v1/partidas/620"
+                }
+            ]
+        },
+        "chave-22": {
+            "ida": [
+                {
+                    "partida_id": 621,
+                    "placar": "Boavista 0x2 Chapecoense",
+                    "placar_mandante": 0,
+                    "placar_visitante": 2,
+                    "status": "encerrado",
+                    "data_realizacao": "19/02/2020",
+                    "hora_realizacao": "19:15",
+                    "_link": "/v1/partidas/621"
+                }
+            ]
+        },
+        "chave-23": {
+            "ida": [
+                {
+                    "partida_id": 622,
+                    "placar": "União Rondonópolis 0x1 Atlético-GO",
+                    "placar_mandante": 0,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "06/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/622"
+                }
+            ]
+        },
+        "chave-24": {
+            "ida": [
+                {
+                    "partida_id": 623,
+                    "placar": "Operário VG 0x0 Santa Cruz",
+                    "placar_mandante": 0,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/623"
+                }
+            ]
+        },
+        "chave-25": {
+            "ida": [
+                {
+                    "partida_id": 624,
+                    "placar": "Imperatriz 0x0 Vitória",
+                    "placar_mandante": 0,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "11/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/624"
+                }
+            ]
+        },
+        "chave-26": {
+            "ida": [
+                {
+                    "partida_id": 625,
+                    "placar": "Lagarto 1x0 Volta Redonda",
+                    "placar_mandante": 1,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "19/02/2020",
+                    "hora_realizacao": "15:30",
+                    "_link": "/v1/partidas/625"
+                }
+            ]
+        },
+        "chave-27": {
+            "ida": [
+                {
+                    "partida_id": 626,
+                    "placar": "Bangu 1x1 Oeste",
+                    "placar_mandante": 1,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "16:00",
+                    "_link": "/v1/partidas/626"
+                }
+            ]
+        },
+        "chave-28": {
+            "ida": [
+                {
+                    "partida_id": 627,
+                    "placar": "Bragantino-PA 1x2 Ceará",
+                    "placar_mandante": 1,
+                    "placar_visitante": 2,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "15:30",
+                    "_link": "/v1/partidas/627"
+                }
+            ]
+        },
+        "chave-29": {
+            "ida": [
+                {
+                    "partida_id": 628,
+                    "placar": "Afogados 3x0 Atlético-AC",
+                    "placar_mandante": 3,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "13/02/2020",
+                    "hora_realizacao": "20:30",
+                    "_link": "/v1/partidas/628"
+                }
+            ]
+        },
+        "chave-30": {
+            "ida": [
+                {
+                    "partida_id": 629,
+                    "placar": "Campinense 0x0 Atlético-MG",
+                    "placar_mandante": 0,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/629"
+                }
+            ]
+        },
+        "chave-31": {
+            "ida": [
+                {
+                    "partida_id": 630,
+                    "placar": "Novo Hamburgo 1x2 Ponte Preta",
+                    "placar_mandante": 1,
+                    "placar_visitante": 2,
+                    "status": "encerrado",
+                    "data_realizacao": "13/02/2020",
+                    "hora_realizacao": "19:15",
+                    "_link": "/v1/partidas/630"
+                }
+            ]
+        },
+        "chave-32": {
+            "ida": [
+                {
+                    "partida_id": 631,
+                    "placar": "Galvez 0x1 Vila Nova",
+                    "placar_mandante": 0,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/631"
+                }
+            ]
+        },
+        "chave-33": {
+            "ida": [
+                {
+                    "partida_id": 632,
+                    "placar": "Altos 1x1 Vasco",
+                    "placar_mandante": 1,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/632"
+                }
+            ]
+        },
+        "chave-34": {
+            "ida": [
+                {
+                    "partida_id": 633,
+                    "placar": "Aquidauanense 0x1 ABC",
+                    "placar_mandante": 0,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/633"
+                }
+            ]
+        },
+        "chave-35": {
+            "ida": [
+                {
+                    "partida_id": 634,
+                    "placar": "Santo André 4x1 Criciúma",
+                    "placar_mandante": 4,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "16:30",
+                    "_link": "/v1/partidas/634"
+                }
+            ]
+        },
+        "chave-36": {
+            "ida": [
+                {
+                    "partida_id": 635,
+                    "placar": "Fast 0x2 Goiás",
+                    "placar_mandante": 0,
+                    "placar_visitante": 2,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "22:30",
+                    "_link": "/v1/partidas/635"
+                }
+            ]
+        },
+        "chave-37": {
+            "ida": [
+                {
+                    "partida_id": 636,
+                    "placar": "Barbalha 0x3 Operário-PR",
+                    "placar_mandante": 0,
+                    "placar_visitante": 3,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "15:30",
+                    "_link": "/v1/partidas/636"
+                }
+            ]
+        },
+        "chave-38": {
+            "ida": [
+                {
+                    "partida_id": 637,
+                    "placar": "Santos-AP 1x1 América-MG",
+                    "placar_mandante": 1,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "05/02/2020",
+                    "hora_realizacao": "20:30",
+                    "_link": "/v1/partidas/637"
+                }
+            ]
+        },
+        "chave-39": {
+            "ida": [
+                {
+                    "partida_id": 638,
+                    "placar": "Ferroviária 2x0 Avaí",
+                    "placar_mandante": 2,
+                    "placar_visitante": 0,
+                    "status": "encerrado",
+                    "data_realizacao": "13/02/2020",
+                    "hora_realizacao": "16:30",
+                    "_link": "/v1/partidas/638"
+                }
+            ]
+        },
+        "chave-40": {
+            "ida": [
+                {
+                    "partida_id": 639,
+                    "placar": "Águia Negra 2x1 Sampaio Corrêa",
+                    "placar_mandante": 2,
+                    "placar_visitante": 1,
+                    "status": "encerrado",
+                    "data_realizacao": "12/02/2020",
+                    "hora_realizacao": "21:30",
+                    "_link": "/v1/partidas/639"
+                }
+            ]
+        }
+    }
+}
