@@ -70,7 +70,7 @@ export default props => {
 
     if ('volta' in item){
       return (
-        <View>
+        <View style={styles.container}>
           <Text style={styles.keyMatch}>Chave {index+1}</Text>
           <MatchCard 
               status={item.volta[0].status}
@@ -100,7 +100,9 @@ export default props => {
         }}
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item, index }) => (
-        <View>
+        <View style={styles.container}>
+          { (!('volta' in item)) ? <Text style={styles.keyMatch}>Chave {index+1}</Text>
+            : null}
           <MatchCard 
             status={item.ida[0].status}
             score={item.ida[0].placar}
@@ -124,9 +126,16 @@ const styles = StyleSheet.create({
     textAlign: 'center'
   },
   keyMatch: {
+    padding: 2,
     flexDirection: "row", 
     alignItems: 'center',
     justifyContent: 'center',
     textAlign: 'center',
+    borderWidth: 1,
+    maxWidth: 100,
+    borderRadius: 5,
+    borderColor: '#c0c0c0',
+    fontSize: 15
+    
   }
 })
