@@ -8,6 +8,7 @@ import api from '../../api/api'
 
 import resp from '../../api/response.json'
 import fases from '../../api/fases.json'
+import { round } from 'react-native-reanimated'
 
 export default props => {
 
@@ -25,23 +26,23 @@ export default props => {
     } )
   }
   
-  const [rounds, setRounds] = useState(data.fases.map(getAllRounds))
+  const [rounds, setRounds] = useState(data.fases.filter(item=> item.status!="aguardando-resultados"))
   const [currentRound, setCurrent] = useState(0)
   const [buttonRightDisable, setButtonRightDisable] = useState(false)
   const [buttonLeftDisable, setButtonLeftDisable]  = useState(true)
 
   useEffect(() =>{
+    // console.log(rounds)
     getMatchesFromRound(rounds[currentRound].fase_id)
       }, []) 
 
   const clickRightButton = () => {
-    if(currentRound < rounds.length-1 && 
-        rounds[currentRound+1].status != "aguardando-resultados") {
-          setButtonLeftDisable(false)
-          if(rounds[currentRound+2].status == "aguardando-resultados"){
-            setButtonRightDisable(true)
-          }
-        getMatchesFromRound(rounds[currentRound+1].fase_id)
+    if(currentRound < rounds.length-1) {
+      setButtonLeftDisable(false)
+      if(currentRound == rounds.length-2){
+        setButtonRightDisable(true)
+      }
+      getMatchesFromRound(rounds[currentRound+1].fase_id)
       setCurrent(currentRound+1)
     }
   }

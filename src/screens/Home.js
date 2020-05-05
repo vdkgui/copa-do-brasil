@@ -24,7 +24,6 @@ export default props => {
   const goToChampsScreen = (item) => {
     let id = item.campeonato_id
     api.get('/campeonatos/'+id).then((response)=>{
-      console.log(response.data)
       navigation.navigate(item.nome, {data:response.data})
     })
   }
