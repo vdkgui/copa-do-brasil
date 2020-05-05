@@ -6,7 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 
 import Copa from './src/screens/Copa'
-import api from './api/api'
+import HomeScreen from './src/screens/Home'
 
 const Stack = createStackNavigator();
 
@@ -22,7 +22,9 @@ export default function App() {
           headerTitleAlign: "center",
         }
       }>
-        <Stack.Screen name="Copa" component={Copa}
+        <Stack.Screen  name="Home" component={HomeScreen}  
+        options={{title: "CAMPEONATOS"}}/>
+        <Stack.Screen name="Copa do Brasil" component={Copa}
           options={{title: "COPA DO BRASIL"}}/>
       </Stack.Navigator>
     </NavigationContainer>

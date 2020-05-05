@@ -9,9 +9,12 @@ import api from '../../api/api'
 import resp from '../../api/response.json'
 import fases from '../../api/fases.json'
 
-export default () => {
+export default props => {
 
-  const [matches, setMatches] = useState(resp.chaves)
+  const [matches, setMatches] = useState([])
+  const {route} = props
+  const {data} = route.params
+
   // const [matchKeys, setKeys] = useState(Object.keys(matchArray))
   
   const getAllRounds = (item) => {
@@ -22,7 +25,7 @@ export default () => {
     } )
   }
   
-  const [rounds, setRounds] = useState(fases.fases.map(getAllRounds))
+  const [rounds, setRounds] = useState(data.fases.map(getAllRounds))
   const [currentRound, setCurrent] = useState(0)
   const [buttonRightDisable, setButtonRightDisable] = useState(false)
   const [buttonLeftDisable, setButtonLeftDisable]  = useState(true)
@@ -82,7 +85,6 @@ export default () => {
 
   return (
     <View style={styles.container}>
-      <Text> round Atual {currentRound}  len {rounds.length}</Text>
       <FlatList
         data={Object.values(matches)}
         ListHeaderComponent={() => { 
