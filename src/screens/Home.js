@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fcfcfc',
     alignItems: 'center',
     justifyContent: 'center',
-    textAlign: 'center',
+    // textAlign: 'center',
     marginTop: 10
   },
   list_header: {
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     alignItems: 'center',
     justifyContent: 'center',
-    textAlign: 'center',
+    // textAlign: 'center',
   },
 
 })
